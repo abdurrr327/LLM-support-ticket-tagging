@@ -27,7 +27,7 @@ Implementation: We used the Hugging Face pipeline for a straightforward implemen
 # 3. Few-Shot Learning (In-Context Learning)
 Concept: This technique leverages a large, instruction-tuned generative model. We provide the model with a carefully crafted prompt that includes instructions, the list of possible categories, and a few examples ("shots") of correctly classified tickets. The model then uses this context to classify a new, unseen ticket.
 Model Used: google/flan-t5-large
-# Implementation: We designed a prompt template that included 3-5 examples. A function was created to dynamically insert a new ticket into this template and generate a prediction. This is a form of prompt engineering, not model training.
+Implementation: We designed a prompt template that included 3-5 examples. A function was created to dynamically insert a new ticket into this template and generate a prediction. This is a form of prompt engineering, not model training.
 # 4. Fine-Tuning
 Concept: This approach involves taking a pre-trained transformer model and further training it on our specific support ticket dataset. This adapts the model's internal weights to become an expert at our particular classification task.
 Model Used: distilbert-base-uncased (a smaller, faster version of BERT).
