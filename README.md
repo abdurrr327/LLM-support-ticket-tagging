@@ -1,4 +1,4 @@
-## Auto-Tagging Support Tickets Using LLMs
+# Auto-Tagging Support Tickets Using LLMs
 This repository contains a Google Colab notebook demonstrating how to use Large Language Models (LLMs) to automatically categorize customer support tickets. The project explores and compares three popular techniques: Zero-Shot Learning, Few-Shot Learning, and Fine-Tuning.
 
 # Objective
